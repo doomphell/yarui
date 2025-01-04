@@ -1,0 +1,19 @@
+proxies:
+################ ** ** I N D O N E S I A ** ** ################
+- name: FastSSH 🇮🇩
+  type: vless
+  server: 
+  port: 443
+  uuid: 54bae7a0-c869-11ef-b538-205c6d5f5d78
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 
+  network: ws
+  ws-opts:
+    path: /vlws
+    headers:
+      Host: 
+  interface-name: usb0
+###############################################################
