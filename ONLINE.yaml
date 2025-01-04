@@ -9,7 +9,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: bug.com
+  servername: sg.serverkit.pw
   network: ws
   ws-opts:
     path: /v2ray-vmess/tls
