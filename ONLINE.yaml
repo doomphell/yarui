@@ -1,7 +1,7 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: sg.serverkit.pw-tls-lionssh_gpzuffo
-  server: 104.22.4.240
+- name: LionSSH(2025-01-12) 🇸🇬
+  server: 104.22.5.240
   port: 443
   type: vmess
   uuid: 0a856674-2b33-4785-8eeb-e363871c9306
