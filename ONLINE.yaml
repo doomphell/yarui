@@ -1,19 +1,20 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: GlobalSSH (2025-01-05) 🇮🇩
-  type: vless
-  server: 172.67.5.14
+- name: sg.serverkit.pw-tls-lionssh_gpzuffo
+  server: 104.22.4.240
   port: 443
-  uuid: 6e52972c-ee5a-47f4-a839-f3989083cc76
+  type: vmess
+  uuid: 0a856674-2b33-4785-8eeb-e363871c9306
+  alterId: 0
   cipher: auto
-  udp: true
   tls: true
   skip-cert-verify: true
-  servername: vless-id01.gproxy.gratis
+  servername: bug.com
   network: ws
   ws-opts:
-    path: /vless-ws
+    path: /v2ray-vmess/tls
     headers:
-      Host: vless-id01.gproxy.gratis
+      Host: sg.serverkit.pw
+  udp: true
   interface-name: usb0
 ###############################################################
