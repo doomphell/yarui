@@ -1,19 +1,19 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: FastSSH 🇮🇩
+- name: GlobalSSH (2025-01-05) 🇮🇩
   type: vless
-  server: 
+  server: 172.67.5.14
   port: 443
-  uuid: 54bae7a0-c869-11ef-b538-205c6d5f5d78
+  uuid: 6e52972c-ee5a-47f4-a839-f3989083cc76
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 
+  servername: vless-id01.gproxy.gratis
   network: ws
   ws-opts:
-    path: /vlws
+    path: /vless-ws
     headers:
-      Host: 
+      Host: vless-id01.gproxy.gratis
   interface-name: usb0
 ###############################################################
