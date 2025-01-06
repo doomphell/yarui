@@ -1,10 +1,10 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: LionSSH(2025-01-12) 🇸🇬
-  server: 104.22.5.240
+- name: LionSSH(2025-01-14) 🇸🇬
+  server: 172.67.5.14
   port: 443
   type: vmess
-  uuid: 0a856674-2b33-4785-8eeb-e363871c9306
+  uuid: 7ab387e7-9f5d-4147-a11c-b8693b3c09ca
   alterId: 0
   cipher: auto
   tls: true
