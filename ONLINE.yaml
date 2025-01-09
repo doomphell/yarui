@@ -3,18 +3,17 @@ proxies:
 - name: JagoanSSH 🇸🇬
   server: 104.22.5.240
   port: 443
-  type: vmess
-  uuid: 58499b18-cd0f-4762-b2f1-d1e64800e602
-  alterId: 0
+  type: vless
+  uuid: a9b49132-1410-481e-b2b9-d6db03214eac
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: tempikgita.ardanto.my.id
+  servername: id1vless.ipservers.xyz
   network: ws
   ws-opts:
-    path: /JAGOANSSH/
+    path: /jagoanssh
     headers:
-      Host: tempikgita.ardanto.my.id
+      Host: id1vless.ipservers.xyz
   udp: true
   interface-name: usb0
 ###############################################################
