@@ -9,12 +9,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: id1-ray.ipservers.xyz
+  servername: tempikgita.ardanto.my.id
   network: ws
   ws-opts:
     path: /JAGOANSSH/
     headers:
-      Host: id1-ray.ipservers.xyz
+      Host: tempikgita.ardanto.my.id
   udp: true
   interface-name: usb0
 ###############################################################
