@@ -1,20 +1,20 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: LionSSH(2025-01-14) 🇸🇬
-  server: 104.22.4.240
+- name: JagoanSSH 🇸🇬
+  server: 104.22.5.240
   port: 443
   type: vmess
-  uuid: 6c6e7998-5fde-479c-822a-f77bf5604173
+  uuid: 58499b18-cd0f-4762-b2f1-d1e64800e602
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: sg.serverkit.pw
+  servername: id1-ray.ipservers.xyz
   network: ws
   ws-opts:
-    path: /v2ray-vmess/tls
+    path: /JAGOANSSH/
     headers:
-      Host: sg.serverkit.pw
+      Host: id1-ray.ipservers.xyz
   udp: true
   interface-name: usb0
 ###############################################################
