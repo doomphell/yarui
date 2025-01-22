@@ -1,6 +1,6 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: GlobalSSH-Backup 🇮🇩
+- name: GlobalSSHBackup 🇮🇩
   server: 172.67.5.14
   port: 443
   type: vless
