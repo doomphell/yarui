@@ -8,12 +8,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: tempikgita.ardanto.my.id
+  servername: vless-id04.gproxy.pro
   network: ws
   ws-opts:
     path: /vless-ws
     headers:
-      Host: tempikgita.ardanto.my.id
+      Host: vless-id04.gproxy.pro
   udp: true
   interface-name: usb0
 ###############################################################
