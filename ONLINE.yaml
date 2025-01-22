@@ -1,6 +1,6 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: GlobalSSH 🇮🇩
+- name: GlobalSSH-Backup 🇮🇩
   server: itilgita.ardanto.my.id
   port: 443
   type: vless
