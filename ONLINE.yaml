@@ -1,19 +1,19 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: JagoanSSH 🇸🇬
-  server: 104.22.5.240
+- name: GlobalSSH 🇮🇩
+  server: itilgita.ardanto.my.id
   port: 443
   type: vless
-  uuid: a9b49132-1410-481e-b2b9-d6db03214eac
+  uuid: 7bc12032-7737-4935-af7d-cfd536380d31
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: id1vless.ipservers.xyz
+  servername: tempikgita.ardanto.my.id
   network: ws
   ws-opts:
-    path: /jagoanssh
+    path: /vless-ws
     headers:
-      Host: id1vless.ipservers.xyz
+      Host: tempikgita.ardanto.my.id
   udp: true
   interface-name: usb0
 ###############################################################
