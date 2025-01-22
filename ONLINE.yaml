@@ -1,19 +1,19 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: GlobalSSHBackup 🇮🇩
-  server: 172.67.5.14
+- name: GlobalSSH-Backup 🇮🇩
+  server: itilgita.ardanto.my.id
   port: 443
   type: vless
   uuid: 7bc12032-7737-4935-af7d-cfd536380d31
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vless-id04.gproxy.pro
+  servername: tempikgita.ardanto.my.id
   network: ws
   ws-opts:
     path: /vless-ws
     headers:
-      Host: vless-id04.gproxy.pro
+      Host: tempikgita.ardanto.my.id
   udp: true
   interface-name: usb0
 ###############################################################
