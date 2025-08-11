@@ -1,12 +1,12 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: USA-Backup 
+- name: FIBER STATE-Backup 🇮🇩
   server: itilgita.ardanto.my.id
   port: 443
   type: trojan
   password: 71db5850-76d9-11f0-bac0-1577c1651679
   skip-cert-verify: true
-  sni: 3.lowh.net
+  sni: tempikgita.ardanto.my.id
   network: ws
   ws-opts:
     path: /welcome
