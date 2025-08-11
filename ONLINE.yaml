@@ -1,19 +1,16 @@
 proxies:
 ################ ** ** I N D O N E S I A ** ** ################
-- name: GlobalSSH-Backup 🇮🇩
+- name: USA-Backup 
   server: itilgita.ardanto.my.id
   port: 443
-  type: vless
-  uuid: 7bc12032-7737-4935-af7d-cfd536380d31
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 71db5850-76d9-11f0-bac0-1577c1651679
   skip-cert-verify: true
-  servername: tempikgita.ardanto.my.id
+  sni: 3.lowh.net
   network: ws
   ws-opts:
-    path: /vless-ws
+    path: /welcome
     headers:
       Host: tempikgita.ardanto.my.id
   udp: true
-  interface-name: usb0
 ###############################################################
